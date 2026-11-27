@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statistik Indonesia — Portal Data Statistik Nasional</title>
+<meta name="description" content="Portal data statistik nasional Indonesia: penduduk, ekonomi, ketenagakerjaan, dan kemiskinan dengan angka resmi BPS 2024.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">ID</div>
+      <div>
+        <h1>Statistik Indonesia</h1>
+        <p>Portal Data Statistik Nasional &middot; Sumber: BPS &amp; Bank Dunia</p>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <span class="pill">Data 2024</span>
+      <span class="pill pill-soft">Diperbarui Nov 2026</span>
+    </div>
+  </div>
+  <nav class="mainnav" aria-label="Navigasi utama">
+    <div class="wrap nav-inner">
+      <a href="#/" data-route="dashboard">Dashboard</a>
+      <a href="#/penduduk" data-route="penduduk">Penduduk</a>
+      <a href="#/ekonomi" data-route="ekonomi">Ekonomi</a>
+      <a href="#/kerja" data-route="kerja">Ketenagakerjaan</a>
+      <a href="#/kemiskinan" data-route="kemiskinan">Kemiskinan</a>
+      <a href="#/kalkulator" data-route="kalkulator">Kalkulator</a>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap" id="app" aria-live="polite">
+  <!-- Semua halaman dirender oleh app.js -->
+  <noscript><p class="card">Situs ini membutuhkan JavaScript untuk menampilkan data dan grafik.</p></noscript>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p><strong>Statistik Indonesia</strong> — situs peraga data statistik nasional. Angka-angka di situs ini
+    merujuk pada publikasi resmi <strong>BPS (Badan Pusat Statistik)</strong> tahun 2024 dan data Bank Dunia,
+    disajikan ulang untuk keperluan edukasi.</p>
+    <p class="muted">Bukan situs resmi pemerintah. Seluruh perhitungan (grafik, tabel, dan kalkulator) berjalan
+    di peramban Anda tanpa mengirim data ke mana pun.</p>
+    <p class="muted">Dibangun 27 November 2026 &middot; Data 2024 &middot; <a href="#/">Kembali ke Dashboard</a></p>
+  </div>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
